@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="animalmanagementsystem.katekelly.com.animalmanagement.login.crud.MainActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="ADD A PET"/>
+
+    <EditText
+        android:id="@+id/ownername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Owner Name"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:layout_marginTop="14dp"
+        android:background="@null"/>
+
+    <EditText
+        android:id="@+id/ownerphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Owner Phone #"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:inputType="phone"
+        android:layout_marginTop="14dp"
+        android:background="@null"/>
+
+    <EditText
+        android:id="@+id/petname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pet Name"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="14dp"
+        android:inputType="textPersonName"
+
+        android:background="@null"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_marginTop="14dp"
+        android:text="Gender"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:onClick="onRadioButtonClicked"/>
+
+
+        <RadioButton android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:onClick="onRadioButtonClicked"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_marginTop="14dp"
+        android:text="Age"/>
+
+    <!--https://github.com/milosmns/actual-number-picker-->
+    <me.angrybyte.numberpicker.view.ActualNumberPicker
+        android:id="@+id/actual_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        app:bar_color="@android:color/white"
+        app:bar_width="1dp"
+        app:bars_count="10  "
+        app:controls_color="@android:color/white"
+        app:draw_over_controls="true"
+        app:draw_over_text="false"
+        app:fast_controls_color="@color/colorPrimaryDark"
+        app:highlight_color="#FFFF3040"
+        app:max_value="100"
+        app:min_value="0"
+        app:selection_color="@color/colorPrimaryDark"
+        app:show_bars="true"
+        app:show_controls="true"
+        app:show_fast_controls="true"
+        app:show_highlight="true"
+        app:show_text="true"
+        app:text_color="@android:color/white"
+        app:text_size="16dp"
+        app:value="7"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Register pet"
+        android:layout_marginTop="14dp"
+        android:textStyle="bold"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        />
+
+
+</LinearLayout>
+</ScrollView>
