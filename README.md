@@ -31,22 +31,35 @@ the code used in the ClickInterface.java file was adapted from:
 https://antonioleiva.com/recyclerview-listener 
 
 code to pass extra fragments between activities(get int extra) was adapted from: https://stackoverflow.com/questions/2137514/getintextra-always-returns-the-default-value  
+
 Number picker: https://github.com/milosmns/actual-number-picker 
  
  Trim(): https://developer.android.com/reference/java/lang/String.html 
+ 
 OnValueChangedListener():
 https://stackoverflow.com/questions/15983120/implementing-onvaluechange-to-a-numberpicker-in-android 
+
 finish ()
 https://www.youtube.com/watch?v=F3kaYKqnUJg 
+
 SharedPreferences to maintain login: adapted from
 https://developer.android.com/reference/android/content/SharedPreferences.html 
+and https://ddrohan.github.io/wit-mad-1-2018/topic04-persistence//talk-9-persistence/persistence.pdf
+
 Floating Action Button: adapted from: https://guides.codepath.com/android/floating-action-buttons 
+
 Log.e() https://stackoverflow.com/questions/7959263/android-log-v-log-d-log-i-log-w-log-e-when-to-use-each-one 
-Database Handler Classes and all CRUD operations: adapted from: https://www.androidhive.info/2011/11/android-sqlite-database-tutorial/ 
+
+Database Handler Classes and all CRUD operations: adapted from: https://www.androidhive.info/2011/11/android-sqlite-database-tutorial/ and https://ddrohan.github.io/wit-mad-1-2018/topic04-persistence//talk-91-sqlite/sqlite.pdf
+
 onResume(): https://developer.android.com/reference/android/app/Activity.html#onResume() 
+
 onRestart() https://developer.android.com/reference/android/app/Activity.html#onRestart() 
+
 RecyclerView: https://developer.android.com/guide/topics/ui/layout/recyclerview.html 
-LayoutInflator: https://developer.android.com/reference/android/view/LayoutInflater.html 
+
+LayoutInflator: https://developer.android.com/reference/android/view/LayoutInflater.html and https://stackoverflow.com/questions/3477422/what-does-layoutinflater-in-android-do
+
 Preference manager: https://developer.android.com/reference/android/support/v7/preference/PreferenceManager.html 
 
  Github link:
