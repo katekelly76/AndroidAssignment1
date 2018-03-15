@@ -30,7 +30,7 @@ References:
 the code used in the ClickInterface.java file was adapted from:
 https://antonioleiva.com/recyclerview-listener 
 
-code to pass extra fragments between activities was adapted from: https://stackoverflow.com/questions/2137514/getintextra-always-returns-the-default-value  
+code to pass extra fragments between activities(get int extra) was adapted from: https://stackoverflow.com/questions/2137514/getintextra-always-returns-the-default-value  
 Number picker: https://github.com/milosmns/actual-number-picker 
  
  Trim(): https://developer.android.com/reference/java/lang/String.html 
