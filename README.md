@@ -61,6 +61,8 @@ RecyclerView: https://developer.android.com/guide/topics/ui/layout/recyclerview.
 LayoutInflator: https://developer.android.com/reference/android/view/LayoutInflater.html and https://stackoverflow.com/questions/3477422/what-does-layoutinflater-in-android-do
 
 Preference manager: https://developer.android.com/reference/android/support/v7/preference/PreferenceManager.html 
+ https://www.raywenderlich.com/124438/android-listview-tutorial
+ https://stackoverflow.com/questions/994840/how-to-create-our-own-listener-interface-in-android
 
  Github link:
 
